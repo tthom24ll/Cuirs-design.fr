@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 1.3em;
+}
+h2{
+    font-size: 1.8em;
+}
+header{
+    margin-bottom: 0;
+}
+#logo{
+    display: inline-block;
+    margin: 1%;
+    border-radius: 10px;
+    height: 100px;
+    width: 150px;
+}
+#titre{
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30%;
+}
+#nav_top{
+    background-color: black;
+    padding-top: 1%;
+    height: 70px;
+    margin-top: 0;
+}
+.ul_top{
+    width: 22%;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
+.li_top{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+.btn_nav_top{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    font-size: 1.5em;
+}
+.btn_nav_top:hover{
+    transform: translate(0px, -20px);
+    height: 80%;
+    transition: 0.5s;
+}
+section{
+    padding-left: 1%;
+}
+footer{
+    background-color: rgb(114, 111, 111);
+    padding: 1%;
+}
